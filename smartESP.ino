@@ -60,7 +60,7 @@ void fanControl(WiFiClient client, const char* STATE) {
 
 void handleControl() {
   // Example:
-  // $ curl http://192.168.12.127/?light=on
+  // $ curl http://192.168.12.127/?state=on
   String lightState = server.arg("state");
 
   WiFiClient client;
